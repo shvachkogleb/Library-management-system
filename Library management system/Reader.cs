@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Library_management_system
 {
-    internal class Reader : Person
+    public class Reader : Person, IBorrowable
     {
         public List<Book> BorrowedBooks { get; private set; }
 
@@ -18,6 +17,7 @@ namespace Library_management_system
                 throw new TooManyBooksException();
             if (!book.IsAvailable)
                 throw new BookUnavailableException();
+
             BorrowedBooks.Add(book);
             book.IsAvailable = false;
         }

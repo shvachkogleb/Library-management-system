@@ -2,7 +2,7 @@
 
 namespace Library_management_system
 {
-    internal class Book
+    public class Book
     {
         public string Title { get; set; }
         public string Author { get; set; }
@@ -23,3 +23,4 @@ namespace Library_management_system
         }
     }
 }
+

@@ -2,7 +2,7 @@
 
 namespace Library_management_system
 {
-    internal class Person
+    public abstract class Person : IUser
     {
         public string Name { get; set; }
         public string Email { get; set; }
@@ -21,3 +21,4 @@ namespace Library_management_system
         }
     }
 }
+

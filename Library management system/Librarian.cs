@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Library_management_system
 {
-    internal class Librarian : Person
+    public class Librarian : Person, ILibraryManagement
     {
         public Librarian(string name, string email) : base(name, email) { }
 
-        public static void AddBook(Book book)
+        public void AddBook(Book book)
         {
             Library.Books.Add(book);
         }
 
-        public static void RemoveBook(Book book)
+        public void RemoveBook(Book book)
         {
             Library.Books.Remove(book);
         }

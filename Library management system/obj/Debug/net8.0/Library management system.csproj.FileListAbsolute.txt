@@ -12,3 +12,4 @@ D:\c#\Library management system\Library management system\obj\Debug\net8.0\refin
 D:\c#\Library management system\Library management system\obj\Debug\net8.0\Library management system.pdb
 D:\c#\Library management system\Library management system\obj\Debug\net8.0\Library management system.genruntimeconfig.cache
 D:\c#\Library management system\Library management system\obj\Debug\net8.0\ref\Library management system.dll
+D:\c#\Library management system\Library management system\obj\Debug\net8.0\Library management system.sourcelink.json
